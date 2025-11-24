@@ -1,0 +1,33 @@
+@import "_variables.css";
+
+body {
+    /* Поменять шрифт */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image {
+    display: inline-block;
+    height: 100%;
+}
+
+.header-main {
+    padding: 12px 0;
+}
+
+.header-main .container-logo .link-logo {
+    display: block;
+}
+
+.header-navigation {
+    background-color: var(--first-light-color);
+    padding: 8px 0;
+}
+
+.header-navigation .navbar-nav .nav-item {
+    padding: 0 50px;
+}
+
+.header-navigation .navbar-nav .nav-link {
+    color: var(--font-light-color);
+    padding: 0;
+}
