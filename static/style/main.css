@@ -2,25 +2,58 @@
 
 body {
     /* Поменять шрифт */
+    min-width: 320px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .image {
     display: inline-block;
+    width: 100%;
     height: 100%;
 }
 
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 14px;
+    color: var(--font-dark-color);
+    border-bottom: 1px solid var(--font-shadow-color);
+}
+
+/* Классы */
+
 .header-main {
-    padding: 12px 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header-main .container-logo {
+    height: 50px;
 }
 
 .header-main .container-logo .link-logo {
     display: block;
+    height: 100%;
 }
 
 .header-navigation {
     background-color: var(--first-light-color);
-    padding: 8px 0;
+}
+
+.header-navigation .navbar-toggler {
+    border: none;
+    color: var(--font-light-color);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-navigation .navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .header-navigation .navbar-nav .nav-item {
@@ -30,4 +63,9 @@ body {
 .header-navigation .navbar-nav .nav-link {
     color: var(--font-light-color);
     padding: 0;
+}
+
+.banner .carousel-item .image {
+    height: 500px;
+    object-fit: cover;
 }

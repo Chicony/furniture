@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+    .header-navigation .navbar-nav .nav-item {
+        padding: 3px 0;
+    }
+}
