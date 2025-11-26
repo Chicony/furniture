@@ -2,4 +2,29 @@
     .header-navigation .navbar-nav .nav-item {
         padding: 3px 0;
     }
+
+    .news-card.min-card {
+        height: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .news-card.main-card {
+        height: 140px;
+    }
+
+    .news-card.main-card .data {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .news-card.min-card .data {
+        padding: 10px;
+    }
 }
