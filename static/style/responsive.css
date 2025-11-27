@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+    .contact-card {
+        padding: 10px 14px;
+    }
+}
+
 @media (max-width: 991px) {
     .header-navigation .navbar-nav .nav-item {
         padding: 3px 0;
@@ -5,6 +11,10 @@
 
     .news-card.min-card {
         height: 140px;
+    }
+
+    .container-map {
+        height: 250px;
     }
 }
 

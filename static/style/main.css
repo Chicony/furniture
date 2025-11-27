@@ -6,10 +6,31 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .image {
     display: inline-block;
     width: 100%;
     height: 100%;
+}
+
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+.icon-location {
+    mask-image: url("../image/icons/location.svg");
+    background-color: var(--font-dark-color);
+}
+
+.icon-phone {
+    mask-image: url("../image/icons/phone.svg");
+    background-color: var(--font-dark-color);
 }
 
 .section {
@@ -124,7 +145,6 @@ body {
 }
 
 .news-card .link {
-    text-decoration: none;
     height: 100%;
     display: block;
     color: var(--font-light-color);
@@ -153,6 +173,56 @@ body {
 
 .news-card .data .title {
     color: var(--font-dark-color);
+}
+
+.contact-card {
+    border: 1px solid var(--font-shadow-color);
+    padding: 12px 20px;
+}
+
+.contact-card .title {
+    color: var(--first-main-color);
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 14px;
+}
+
+.contact-card .data-info {
+    margin-top: 4px;
+}
+
+.contact-card .data-info .link {
+    color: var(--font-dark-color);
+}
+
+.contact-card .data-info .link:hover {
+    color: var(--first-main-color);
+}
+
+.contact-card .data-info .link:hover .icon-phone {
+    background-color: var(--first-main-color);
+}
+
+.contact-card .data-info .icon-location {
+    top: 2px;
+}
+
+.contact-card .data-info .icon-phone {
+    top: 2px;
+    left: 2px;
+}
+
+.contact-card .data-time {
+    margin-top: 14px;
+}
+
+.contact-card .row-time .time {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.container-map {
+    height: 100%;
 }
 
 .footer {
