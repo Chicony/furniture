@@ -1,4 +1,4 @@
-@import "_variables.css";
+@import "variables.css";
 
 body {
     /* Поменять шрифт */
@@ -44,19 +44,17 @@ a {
 
 .section-fill {
     background-color: var(--first-light-color);
+    color: var(--font-light-color);
 }
 
 .section-fill .container-title {
     color: var(--font-light-color);
-    border-bottom: none;
 }
 
 .container-title {
     font-size: 30px;
     font-weight: 600;
-    padding-bottom: 14px;
     color: var(--font-dark-color);
-    border-bottom: 1px solid var(--font-shadow-color);
 }
 
 /* Классы */
@@ -103,6 +101,12 @@ a {
 .banner .carousel-item .image {
     height: 500px;
     object-fit: cover;
+}
+
+.image-about {
+    height: 300px;
+    float: left;
+    margin-right: 14px;
 }
 
 .news-card.main-card {
